@@ -10,6 +10,7 @@ win = uic.loadUi("студенты.ui")
 
 Gr = Grup()
 Gr.read_data_from_file("text.txt")
+Gr.sort_by_fam()
 print("!!!", Gr.count)
 
 
