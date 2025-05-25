@@ -51,7 +51,5 @@ class Grup:
 
                 x += 1
                 self.count += 1
-    def sort_by_fam(self):
-        self.A = dict(sorted(self.A.items(), key=lambda item: item[1].fam))
 
        
